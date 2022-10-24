@@ -133,16 +133,25 @@
 .skills__card {
   width: 166px;
   height: 206px;
-  border: #b58553 solid 2px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .skills__card-image {
 }
 .skills__card-tittle {
   font-size: 14px;
-line-height: 17px;
-text-align: center;
+  line-height: 17px;
+  text-align: center;
+  margin: 0;
+ 
 
-color: #828282;
+  color: #828282;
 }
-.skills__card-stars {
+.skills__card-stars-container {
+ justify-self: flex;
+}
+
+.skills__card-star {
 }
